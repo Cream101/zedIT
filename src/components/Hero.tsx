@@ -6,7 +6,7 @@ export default function Hero() {
   const { hero, profile, skills, education, experience, projects } = portfolio;
   const roles = hero.roles?.length ? hero.roles : [profile.tagline];
   const [first, middle, ...rest] = profile.name.split(" ");
-  const strengths = (skills[0]?.items ?? []).slice(0, 3).map((i) => i.name);
+  const strengths = (skills[0]?.items ?? []).slice(3, 4).map((i) => i.name);
   const liveProjects = projects.filter((x) => x.liveUrl);
   const stats = [
     education[0] && { value: education[0].year, label: education[0].program },

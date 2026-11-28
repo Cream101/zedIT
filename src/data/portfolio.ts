@@ -15,7 +15,7 @@ export const portfolio: Portfolio = {
     headline:
       "I BUILD INNOVATIVE, AI-POWERED WEB APPLICATIONS TO SOLVE REAL-WORLD PROBLEMS",
     intro:
-      "I'm a fresh BS Information Technology graduate from the University of Cagayan Valley who builds AI-powered web apps with the TypeScript, React, and Next.js stack.",
+      "I'm a fresh BS Information Technology graduate from the University of Cagayan Valley who builds AI-powered web apps with the Php, TypeScript, React, and Next.js stack.",
     roles: ["Fresh Graduate", "BS Information Technology", "AI Web App Developer", "Technical Support"],
   },
   skills: [

@@ -92,7 +92,7 @@ export const portfolio: Portfolio = {
     },
  {
       organization: "Ying Ying Melamine",
-      role: "Admin",
+      role: "Admin assistant",
       period: "4 months",
       placeholder: true,
       bullets: [
@@ -110,19 +110,9 @@ export const portfolio: Portfolio = {
       liveUrl: "https://barangayskportal.kesug.com",
     },
     {
-      title: "Barangay Attendance Monitoring",
+      title: "AMS",
       description: "Attendance monitoring system using facial recognition for barangay officials.",
       tags: ["Facial Recognition, using python and opencv"],
-    },
-    {
-      title: "AI Web App",
-      description: "A web app that uses an AI API to solve a real user problem.",
-      tags: ["React", "TypeScript", "Next.js", "AI API"],
-    },
-    {
-      title: "Web Application",
-      description: "A CRUD app with authentication and a database.",
-      tags: ["Next.js", "TypeScript", "PHP", "MySQL"],
     },
     {
       title: "Video Editing",

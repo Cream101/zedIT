@@ -2,6 +2,7 @@ export type Capability = { name: string; icon: string; label: string };
 
 export const capabilities: Capability[] = [
   { name: "TypeScript", icon: "TS", label: "Language" },
+  { name: "HTML", icon: "HTML", label: "Frontend" },
   { name: "React", icon: "Re", label: "Frontend" },
   { name: "Next.js", icon: "Nx", label: "Framework" },
   { name: "Tailwind CSS", icon: "Tw", label: "Styling" },

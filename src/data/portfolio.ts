@@ -9,8 +9,7 @@ export const portfolio: Portfolio = {
     location: "Dubinan East, Santiago City",
     phone: "09123683924",
     email: "zedrickudaundo8@gmail.com",
-    objective:
-      "To gain work experience in the field of Information Technology, improve and grow my technical skills, and apply what I have learned in school while contributing to your company organization.",
+    objective: "To gain work experience in the field of Information Technology, improve and grow my technical skills, and apply what I have learned in school while contributing to your company organization.",
   },
   hero: {
     headline:
@@ -57,7 +56,7 @@ export const portfolio: Portfolio = {
         },
         {
           name: "Computer Hardware Troubleshooting",
-          description: "Repairing and maintaining computer hardware and system components",
+          description: "Basic repairing and maintaining computer hardware and system components",
         },
       ],
     },
@@ -91,18 +90,29 @@ export const portfolio: Portfolio = {
         "Supported day-to-day office IT needs.",
       ],
     },
+ {
+      organization: "Ying Ying Melamine",
+      role: "Admin",
+      period: "4 months",
+      placeholder: true,
+      bullets: [
+        "Assisting Clients.",
+        "Cashiering.",
+        "Inventory Management.",
+      ],
+    },
   ],
   projects: [
     {
       title: "SK Portal",
       description: "Barangay SK portal web application.",
-      tags: ["Web Application"],
+      tags: ["Web Application, using php and mysql"],
       liveUrl: "https://barangayskportal.kesug.com",
     },
     {
       title: "Barangay Attendance Monitoring",
-      description: "Attendance monitoring system for barangays using facial recognition.",
-      tags: ["Facial Recognition"],
+      description: "Attendance monitoring system using facial recognition for barangay officials.",
+      tags: ["Facial Recognition, using python and opencv"],
     },
     {
       title: "AI Web App",
@@ -115,9 +125,14 @@ export const portfolio: Portfolio = {
       tags: ["Next.js", "TypeScript", "PHP", "MySQL"],
     },
     {
-      title: "Video Edit / Demo Reel",
-      description: "A showcase of an edited video project.",
+      title: "Video Editing",
+      description: "i have experience in video editing in my school for my school project and i also have experience in video editing for my personal project. Using Capcut for video editing.",
       tags: ["Video Editing"],
+    },
+    {
+      title: "Photo Editing",
+      description: "I have experience in photo editing using Canva for school projects and personal projects.",
+      tags: ["Photo Editing"],
     },
   ],
   certificates,

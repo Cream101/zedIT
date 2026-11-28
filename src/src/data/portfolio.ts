@@ -57,7 +57,7 @@ export const portfolio: Portfolio = {
         },
         {
           name: "Computer Hardware Troubleshooting",
-          description: "Repairing and maintaining computer hardware and system components",
+          description: "Basic repairing and maintaining computer hardware and system components",
         },
       ],
     },

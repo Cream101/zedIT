@@ -85,9 +85,10 @@ export const portfolio: Portfolio = {
       period: "Feb–May 2026",
       placeholder: true,
       bullets: [
-        "Assisted with hardware and software support for office computers.",
-        "Encoded and managed records for the office.",
+        "Assisted with basic hardware and software support for office computers.",
+        "Encoded and organized records for the office.",
         "Supported day-to-day office IT needs.",
+        "Received documents, and assisting clients for their school budget inquiries.",
       ],
     },
  {

@@ -64,8 +64,8 @@ export const portfolio: Portfolio = {
       description: "I have experience in video editing using Capcut for school projects and personal projects."
      },
       
-      { name: "Photo Editing",
-      description: "I have experience in photo editing using Canva for school projects and personal projects."
+      { name: "Graphic Design",
+      description: "I have experience in graphic design using Canva for school projects and personal projects."
        }] },
     {
       title: "Professional",

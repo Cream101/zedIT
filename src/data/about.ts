@@ -1,0 +1,2 @@
+export const about =
+  "My experience spans system development, Agentic AI projects, research, and collaborative team environments, where I’ve developed a strong passion for creating innovative, user-centered digital solutions. I am committed to continuous learning, adaptability, and professionalism, and I aim to contribute my technical expertise and creative problem-solving skills to organizations that foster innovation and create meaningful impact.";

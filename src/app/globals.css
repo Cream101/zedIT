@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #000000;
+  --color-surface: #08100c;
+  --color-line: #1b2a22;
+  --color-ink: #ecf5f0;
+  --color-muted: #9aaba2;
+  --color-accent: #6ef3b4;
+  /* keeps the existing hover:bg-accent-hover buttons on the mint palette */
+  --color-accent-hover: #a6f9d2;
+  --color-emerald-400: #a6f9d2;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-bg); color: var(--color-ink); }
+section[id] { scroll-margin-top: 4.5rem; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Glitch: brief burst every few seconds */
+.glitch { position: relative; display: inline-block; }
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute; inset: 0; opacity: 0; pointer-events: none;
+}
+.glitch::before { color: var(--color-accent-hover); animation: glitch-burst 5s infinite; }
+.glitch::after { color: #ffffff; animation: glitch-burst 5s infinite 0.08s reverse; }
+@keyframes glitch-burst {
+  0%, 90%, 100% { opacity: 0; transform: translate(0); clip-path: inset(0); }
+  91% { opacity: .85; transform: translate(-3px, 1px); clip-path: inset(10% 0 60% 0); }
+  93% { opacity: .85; transform: translate(3px, -1px); clip-path: inset(55% 0 10% 0); }
+  95% { opacity: .85; transform: translate(-2px, 0); clip-path: inset(30% 0 35% 0); }
+  97% { opacity: .85; transform: translate(2px, 1px); clip-path: inset(70% 0 5% 0); }
+}
+
+/* Typing cursor */
+.cursor {
+  display: inline-block; width: 0.6ch; height: 1.1em; margin-left: 2px;
+  vertical-align: text-bottom; background: var(--color-accent);
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .glitch::before, .glitch::after, .cursor { animation: none; }
+}
+
+/* Light mode (toggled from the menu) */
+:root[data-theme="light"] {
+  --color-bg: #f5faf7;
+  --color-surface: #ffffff;
+  --color-line: #d3e4da;
+  --color-ink: #0b1a13;
+  --color-muted: #4b6155;
+  --color-accent: #0e9f6e;
+  --color-accent-hover: #12b883;
+}

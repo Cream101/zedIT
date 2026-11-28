@@ -99,7 +99,7 @@ export const portfolio: Portfolio = {
       bullets: [
         "Assisting Clients.",
         "Cashiering.",
-        "Inventory Management.",
+        "invoice and billing.",
       ],
     },
   ],

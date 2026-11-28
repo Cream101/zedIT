@@ -129,7 +129,7 @@ export const portfolio: Portfolio = {
     {
       title: "Graphic Design",
       description: "Graphic design using Canva",
-      tags: ["Banners, Posters, and other graphic design"],
+      tags: ["Banners, Posters, and other graphic designs"],
     },
   ],
   certificates,

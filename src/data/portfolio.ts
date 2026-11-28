@@ -123,13 +123,13 @@ export const portfolio: Portfolio = {
     },
     {
       title: "Video Editing",
-      description: "i have experience in video editing in my school for my school project and i also have experience in video editing for my personal project. Using Capcut for video editing.",
+      description: "Video editing Using Capcut for video editing.",
       tags: ["Video Editing"],
     },
     {
-      title: "Photo Editing",
-      description: "I have experience in photo editing using Canva for school projects and personal projects.",
-      tags: ["Photo Editing"],
+      title: "Graphic Design",
+      description: "Graphic design using Canva",
+      tags: ["Graphic Design"],
     },
   ],
   certificates,

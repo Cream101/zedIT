@@ -89,7 +89,6 @@ export const portfolio: Portfolio = {
       organization: "Department of Education SDO Tuguegarao City",
       role: "On The Job Training",
       period: "Feb–May 2026",
-      placeholder: true,
       bullets: [
         "Assisted with basic hardware and software support for office computers.",
         "Encoded and organized records for the office.",
@@ -101,7 +100,6 @@ export const portfolio: Portfolio = {
       organization: "Ying Ying Melamine",
       role: "Admin assistant",
       period: "4 months",
-      placeholder: true,
       bullets: [
         "Assisting Clients.",
         "Cashiering.",

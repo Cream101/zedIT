@@ -123,13 +123,13 @@ export const portfolio: Portfolio = {
     },
     {
       title: "Video Editing",
-      description: "Video editing Using Capcut for video editing.",
-      tags: ["Video Editing"],
+      description: "School video editing project.",
+      tags: ["Video Editing, using Capcut"],
     },
     {
       title: "Graphic Design",
       description: "Graphic design using Canva",
-      tags: ["Graphic Design"],
+      tags: ["Banners, Posters, and other graphic design"],
     },
   ],
   certificates,

@@ -60,7 +60,13 @@ export const portfolio: Portfolio = {
         },
       ],
     },
-    { title: "Media", items: [{ name: "Video Editing" }, { name: "Photo Editing" }] },
+    { title: "Media", items: [{ name: "Video Editing",
+      description: "I have experience in video editing using Capcut for school projects and personal projects."
+     },
+      
+      { name: "Photo Editing",
+      description: "I have experience in photo editing using Canva for school projects and personal projects."
+       }] },
     {
       title: "Professional",
       items: [

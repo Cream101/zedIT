@@ -10,5 +10,5 @@ export const capabilities: Capability[] = [
   { name: "MySQL", icon: "SQL", label: "Database" },
   { name: "RAG & LLM APIs", icon: "AI", label: "AI Integration" },
   { name: "Video Editing", icon: "Ve", label: "Media" },
-  { name: "Photo Editing", icon: "Ph", label: "Media" },
+  { name: "Graphic Design", icon: "GD", label: "Media" },
 ];
